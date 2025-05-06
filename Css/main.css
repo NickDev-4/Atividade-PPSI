@@ -62,6 +62,12 @@ a {
     text-align: center;
     padding: 2px 15px 2px 15px;
     transform: translateX(300px);
+
+
+}
+
+#img {
+    border-radius: 20px;
 }
 
 /* FIM */
@@ -104,3 +110,21 @@ td {
 }
 
 /* FIM */
+
+/*Cards do home - home.html*/
+
+.card_derik {
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    margin: 0 0 0 350px;
+
+}
+
+.card_nickolas {
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    margin: 0 0 0 200px;
+
+}
