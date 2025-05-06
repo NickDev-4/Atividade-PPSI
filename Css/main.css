@@ -48,6 +48,40 @@ a {
 
 /* FIM */
 
+/*Cards do home - home.html*/
+
+#card_derik {
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    margin: 0 0 0 280px;
+    width: 400px;
+    height: 400px;
+    background-color: #5e5e5e;
+    border-radius: 10px;
+}
+
+#card_derik:hover {
+    background-color: #12122b;
+}
+
+#card_nickolas {
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    margin: 0 0 0 150px;
+    width: 400px;
+    height: 400px;
+    background-color: #5e5e5e;
+    border-radius: 10px;
+}
+
+#card_nickolas:hover {
+    background-color: #12122b;
+}
+
+/* FIM */
+
 /*Elementos do card - derik.html e nickolas.html*/
 
 .card {
@@ -85,7 +119,7 @@ table, th, td {
 }
 
 th {
-    text-align: left;
+    text-align: center;
     color: #aaaa91;
 }
 
@@ -107,40 +141,6 @@ td {
 
 #h2 {
     text-align: center;
-}
-
-/* FIM */
-
-/*Cards do home - home.html*/
-
-#card_derik {
-    display: inline-block;
-    align-items: center;
-    text-align: center;
-    margin: 0 0 0 275px;
-    width: 400px;
-    height: 400px;
-    background-color: #5e5e5e;
-    border-radius: 10px;
-}
-
-#card_derik:hover {
-    background-color: #12122b;
-}
-
-#card_nickolas {
-    display: inline-block;
-    align-items: center;
-    text-align: center;
-    margin: 0 0 0 150px;
-    width: 400px;
-    height: 400px;
-    background-color: #5e5e5e;
-    border-radius: 10px;
-}
-
-#card_nickolas:hover {
-    background-color: #12122b;
 }
 
 /* FIM */
