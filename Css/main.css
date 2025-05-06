@@ -30,11 +30,11 @@ a {
     width: fit-content;
 }
   
-#menu-item {
+.menu-item {
     float: left;
 }
   
-#menu-link {
+.menu-link {
     display: inline-block;
     color: white;
     text-align: center;
@@ -42,7 +42,7 @@ a {
     text-decoration: none;
 }
   
-#menu-link:hover {
+.menu-link:hover {
     background-color: #111;
 }
 
@@ -62,11 +62,11 @@ a {
     text-align: center;
     padding: 2px 15px 2px 15px;
     transform: translateX(300px);
-
+    border-radius: 10px;
 
 }
 
-#img {
+.img {
     border-radius: 20px;
 }
 
@@ -113,18 +113,34 @@ td {
 
 /*Cards do home - home.html*/
 
-.card_derik {
+#card_derik {
     display: inline-block;
     align-items: center;
     text-align: center;
-    margin: 0 0 0 350px;
-
+    margin: 0 0 0 275px;
+    width: 400px;
+    height: 400px;
+    background-color: #5e5e5e;
+    border-radius: 10px;
 }
 
-.card_nickolas {
+#card_derik:hover {
+    background-color: #12122b;
+}
+
+#card_nickolas {
     display: inline-block;
     align-items: center;
     text-align: center;
-    margin: 0 0 0 200px;
-
+    margin: 0 0 0 150px;
+    width: 400px;
+    height: 400px;
+    background-color: #5e5e5e;
+    border-radius: 10px;
 }
+
+#card_nickolas:hover {
+    background-color: #12122b;
+}
+
+/* FIM */
