@@ -5,35 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Orientado</title>
     <link rel="stylesheet" href="Css/main.css">
-
 </head>
 <body>
-    <Header>
+    <header>
         <h1>Projeto Orientado</h1>
-            <ul id="menu"> 
-                <li class="menu-item"><a class="menu-link" href="home.html">Home</a></li>
-                <li class="menu-item"><a class="menu-link" href="derik.html">Derik Rocha</a></li>
-                <li class="menu-item"><a class="menu-link" href="nickolas.html">Nickolas Freire</a></li>
-                <li class="menu-item"><a class="menu-link" href="curiosidades.html">Tabelas de Curiosidades</a></li>
-                <li class="menu-item"><a class="menu-link" href="favoritos.html">Site de Favoritos</a></li>
-            </ul>
-    </Header>
+        <ul id="menu"> 
+            <li class="menu-item"><a class="menu-link" href="home.html">Home</a></li>
+            <li class="menu-item"><a class="menu-link" href="derik.html">Derik Rocha</a></li>
+            <li class="menu-item"><a class="menu-link" href="nickolas.html">Nickolas Freire</a></li>
+            <li class="menu-item"><a class="menu-link" href="curiosidades.html">Tabelas de Curiosidades</a></li>
+            <li class="menu-item"><a class="menu-link" href="favoritos.html">Site de Favoritos</a></li>
+        </ul>
+    </header>
 
-    <h2>Alunos do Projeto</h2>
-    <p>Clique sobre a imagem para saber mais sobre o estudante desejado</p>
+    <main>
+        <h2>Alunos do Projeto</h2>
+        <p>Clique sobre a imagem para saber mais sobre o estudante desejado</p>
 
-    <a href="derik.html">
-        <div id="card_derik">
-            <h3>Derik Rocha</h3>
-            <img class="img" src="img/foto-derik_resized.jpeg" alt="foto-derik">
-        </div>
-    </a>
+        <section class="cards">
+            <a href="derik.html" class="card">
+                <h3>Derik Rocha</h3>
+                <img class="img" src="img/foto-derik_resized.jpeg" alt="foto-derik">
+            </a>
 
-    <a href="nickolas.html">
-        <div id="card_nickolas">
-            <h3>Nickolas Freire</h3>
-            <img class="img" src="img/Foto-Nickolas_resized.jpg" alt="Foto-Nickolas">
-        </div>
-    </a>
+            <a href="nickolas.html" class="card">
+                <h3>Nickolas Freire</h3>
+                <img class="img" src="img/Foto-Nickolas_resized.jpg" alt="Foto-Nickolas">
+            </a>
+        </section>
+    </main>
 </body>
 </html>
