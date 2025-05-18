@@ -6,60 +6,75 @@
     <link rel="stylesheet" href="Css/main.css">
 </head>
 <body>
-    <h1>Contato</h1>
+    <header>
+        <h1>Projeto Orientado</h1>
+        <ul id="menu"> 
+            <li class="menu-item"><a class="menu-link" href="home.html">Home</a></li>
+            <li class="menu-item"><a class="menu-link" href="derik.html">Derik</a></li>
+            <li class="menu-item"><a class="menu-link" href="nickolas.html">Nickolas</a></li>
+            <li class="menu-item"><a class="menu-link" href="curiosidades.html">Curiosidades</a></li>
+            <li class="menu-item"><a class="menu-link" href="favoritos.html">Sites</a></li>
+            <li class="menu-item"><a class="menu-link" href="forms.html">Contatos</a></li>
 
-    <form>
+        </ul>
+    </header>
 
-        <p>
-            <label for="nome" ><b>Nome</b></label><br>
-            <input type="text" size="40" maxlength="40" name="nome" id="nome"><br>
-        </p>
+    <h1>Contatos</h1>
+
+    <div id="container-contatos">
+        <div id="contatos">
+            <form>
+                <p>
+                    <label for="nome" ><b>Nome</b></label><br>
+                    <input type="text" size="40" maxlength="40" name="nome" id="nome"><br>
+                </p>
+            
+                <p>
+                    <label for="mensagem"><b>Mensagem</b></label><br>
+                    <textarea name="mensagem" id="mensagem" rows="4" cols="40"></textarea>
+                </p>
+
+                <fieldset name="pergunta" id="pergunta">
+
+                    <legend >Deseja receber resposta para sua mensagem ?</legend>
+            
+                    <input type="radio" name="resposta" value="sim" id="resposta-sim">
+                    <label for="resposta-sim">Sim</label>
+
+                    <input type="radio" name="resposta" value="nao" id="resposta-nao"> 
+                    <label for="resposta-nao">Não</label>
+
+                </fieldset>
+
+                <p>
+                    <label for="email" ><b>E-mail</b></label><br>
+                    <input type="email" size="40" maxlength="40" name="email" id="email"><br>
+                </p>
+
+                <p>
+                    <label for="telefone"><b>Telefone</b></label><br>
+                    <input type="tel" size="20" maxlength="15" name="telefone" id="telefone">
+                </p>
 
 
-        
-       <p>
-            <label for="mensagem"><b>Mensagem</b></label><br>
-            <textarea name="mensagem" id="mensagem" rows="4" cols="40"></textarea>
-       </p>
-
-       <fieldset name="pergunta" id="pergunta">
-
-            <legend >Deseja receber resposta para sua mensagem ?</legend>
-          
-            <input type="radio" name="resposta" value="sim" id="resposta-sim">
-            <label for="resposta-sim">Sim</label>
-            <input type="radio" name="resposta" value="nao" id="resposta-nao"> 
-            <label for="resposta-nao">Não</label>
-
-       </fieldset>
-
-       <p>
-            <label for="email" ><b>E-mail</b></label><br>
-            <input type="email" size="40" maxlength="40" name="email" id="email"><br>
-        </p>
-
-       <p>
-            <label for="telefone"><b>Telefone</b></label><br>
-            <input type="tel" size="20" maxlength="15" name="telefone" id="telefone">
-         </p>
-
-
-        <p>
-            <label for="tempo-local"><b>Qual a data e o horario para agendar a reunião ?</b></label><br>
-            <input type="datetime-local" name="tempo-local" id="tempo-local">
-        </p>
-        
-        <p>
-            <label for="semana"><b>Qual a semana para a entrevista ?</b></label><br>
-            <input type="week" name="semana" id="semana">
-        </p>
-
-       <p>
-        <button>Enviar</button>
-        <button type="reset">limpar</button>
-       </p>
-
-    </form>
-
+                <p>
+                    <label for="tempo-local"><b>Qual a data e o horario para agendar a reunião ?</b></label><br>
+                    <input type="datetime-local" name="tempo-local" id="tempo-local">
+                </p>
+            
+                <p>
+                    <label for="semana"><b>Qual a semana para a entrevista ?</b></label><br>
+                    <input type="week" name="semana" id="semana">
+                </p>
+                
+                <div id="enviar">
+                    <p>
+                        <button id="contatos">Enviar</button>
+                        <button id="contatos" type="reset">Limpar</button>
+                    </p>
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
 </html>

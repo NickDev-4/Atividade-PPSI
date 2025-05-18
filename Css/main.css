@@ -33,7 +33,6 @@ a:hover {
 #menu {
     list-style-type: none;
     margin: 0 auto;
-
     padding: 10px 90px;
     display: flex;
     justify-content: center;
@@ -261,4 +260,47 @@ ul li a:hover {
     background-color: #e0e0e0;
     color: #121212;
     transform: scale(1.1);
+}
+
+/* Estilo para o formulário*/
+
+#container-contatos {
+    text-align: center;
+}
+
+#contatos {
+    p {
+        text-align: left;
+    }
+
+    form {
+        margin: 0 0 30px 0;
+        padding: 25px 80px;
+        display: inline-block;
+        align-items: center;
+        border: 5px solid #e0e0e0;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    button {
+        margin: 20px;
+        padding: 10px 20px;
+        border-radius: 5px;
+        background-color: #e0e0e0;
+        color: #121212;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    }
+
+    button:hover {
+        background-color: #9f9fdd;
+        color: #121212;
+        transform: scale(1.1);
+    }
+}
+
+#enviar {
+    display: inline-block;
+    align-items: center;
 }
