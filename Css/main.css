@@ -33,7 +33,8 @@ a:hover {
 #menu {
     list-style-type: none;
     margin: 0 auto;
-    padding: 10px 35px;
+
+    padding: 10px 90px;
     display: flex;
     justify-content: center;
     gap: 20px;
